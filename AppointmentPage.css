@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(Images/asdasd.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+        .tables {
+            border-collapse: collapse;
+            margin: 25px 0;
+            min-width: 400px;
+            font-size: 0.9rem;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            margin-left: 200px; 
+            margin-top: 160px;
+            background-color: white;
+        }
+        .tables thead tr {
+            background-color: wheat;
+            color: rgb(0, 0, 0);
+            text-align: left;
+            font-weight: bolder;
+        }
+        .tables th, 
+        .tables td {
+            padding: 12px 15px;
+        }
+        .tables tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        .tables tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        .tables tbody tr:least-oftype {
+            border-bottom: 2px solid skyblue;
+        }
+        .tables tr {
+            font-weight: bolder;
+            font-size: 15px;
+        }

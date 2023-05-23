@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(Images/Mainpp.jpg);
+    background-size: cover;
+    position: sticky;
+    background-position: center;
+    box-sizing: border-box;
+    color: rgb(7, 4, 4);
+    }
+
+
+    

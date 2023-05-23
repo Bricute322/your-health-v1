@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    }
+        .menu-bar {
+        background-color: rgb(203, 166, 106);
+        text-align: center;
+        }
+        .logogo {
+            display: flex;
+            align-items: center;
+            justify-items: first baseline;
+            padding: 0px 50%; 
+        }
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: rgb(203, 166, 106);
+            height: 150px;
+            width: 100vw;
+            font-family: "Open Sans";
+            padding-top: 100px;
+            font-weight: bold;
+            color: rgb(2, 2, 2);
+            align-items: center;
+        }
+        header {
+            font-family: sans-serif;
+            margin-left: 690px;
+            font-size: 30px;
+        }
+        .logo {
+            height: 100px;
+            width: 100px;
+            left: -760px;
+            position: relative;
+            cursor: pointer;
+        }
+        .logogo span{
+            position: relative;
+            font-weight: 700;
+            font-size: 15px;
+            font-family:Lucida Handwriting;
+            color: rgb(0, 0, 0); 
+            left: -760px;
+        }
+        .heading {
+            font-size: 60px;
+            color: rgb(9, 9, 9);
+            text-align: center;
+        }
+        .heading span {
+            font-style: italic;
+            font-size: 30px;
+        }
+        .profiles {
+            display: flex;
+            gap: 60px ;
+            overflow-x: auto;
+        }
+        .profiles img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            filter: grayscale(100%);
+            cursor: pointer;
+            transition: 400ms;
+            align-items: center;
+        }
+        .profile:hover .profile-image {
+            filter: grayscale(0);
+        }
+        .username {
+            margin-top: 30px;
+            font-size: 35px;
+        }
+        h5,  h3 {
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: 3px;
+            color: rgb(1, 1, 1);
+            text-align: center;
+        }
+        .profile p {
+            font-size: 16px;
+            margin-top: 20px;
+            text-align: justify;
+        }
+        .carousel {
+            height: auto;
+            padding: 1rem;
+            max-width: 900px ;
+            width: 85vw ;
+            margin: auto;
+        }
+
+       

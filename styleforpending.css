@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(Images/Mainpp.jpg);
+    background-size: cover;
+    position: sticky;
+    height: 912px;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: Lucida Handwriting;
+    color: white;
+    }
+    
+    .menu-bar {
+        background-color: rgb(203, 166, 106);
+        text-align: center;
+    }
+    .logogo {
+        display: flex;
+        align-items: center;
+        justify-items: first baseline;
+        padding: 5px 10%; 
+    }
+    .logo {
+        height: 100px;
+        width: 100px;
+        left: -150px;
+        position: relative;
+        cursor: pointer;
+    }
+    .logogo span{
+        position: relative;
+        font-weight: 700;
+        font-size: 15px;
+        font-family:Lucida Handwriting;
+        color: rgb(0, 0, 0); 
+        margin-left: -165px;
+    }
+    .menu-bar ul {
+        display: inline-flex;
+        list-style: none;
+        color: #ffff;
+        margin-left:  150px;
+    }
+    
+    .menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+    }
+    .menu-bar ul li a {
+        text-decoration: none;
+        color: #ffff;
+    }
+    .active, menu-bar ul li:hover {
+        background: rgb(203, 166, 106);
+        border-radius: 20px;
+    }
+table{
+    width: 800px;
+    border-spacing: 2px;
+}
+
+th{
+    text-align: center;
+    color: #000;
+}
+td{
+    text-align: center;
+    color: #000;
+}
+table,th,td{
+    border: 1px solid #000
+}
+h1{
+    text-align: center;
+}
+
+        .tab-container{
+            max-width: 800px;
+            margin: 20px auto;
+            list-style: none;
+            position: relative;
+            background-color: #e9caae;
+        }
+h1{
+    color:#000;
+}
